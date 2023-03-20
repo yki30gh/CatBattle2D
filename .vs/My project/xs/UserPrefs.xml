@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{32C3BDE6-E125-3128-82C1-25D0441455A3}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7746dbce-b2a6-44ce-91bf-4dacd9494e6f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PartySelect.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CharacterConfig.cs" Line="8" Column="45" />
+      <File FileName="Assets/Scripts/AttributeConfig.cs" Line="26" Column="6" />
+      <File FileName="Assets/Scripts/PartySelect.cs" Line="10" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="My project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
