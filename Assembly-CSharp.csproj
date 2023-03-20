@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/AttributeConfig.cs" />
     <Compile Include="Assets/Scripts/PartySelect.cs" />
     <Compile Include="Assets/Scripts/CharacterConfig.cs" />
+    <Compile Include="Assets/Scripts/CardController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
