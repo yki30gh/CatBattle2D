@@ -13,7 +13,8 @@ public class CharacterConfig : MonoBehaviour
         アガー,
         ドリー,
         ライド,
-        ごはんちゃん
+        ごはんちゃん,
+        ドラえもん
     }
 
 
@@ -31,6 +32,16 @@ public class CharacterConfig : MonoBehaviour
         public CharacterName getName()
         {
             return this.name;
+        }
+
+        public AttributeConfig.AttributeName getAttribute()
+        {
+            return this.attribute;
+        }
+
+        public Sprite getSprite()
+        {
+            return this.sprite;
         }
 
         public int getHP()

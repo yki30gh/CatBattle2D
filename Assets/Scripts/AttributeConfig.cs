@@ -14,7 +14,7 @@ public class AttributeConfig : MonoBehaviour
         Red,
         Blue,
         Green,
-        yellow
+        Yellow
 
     }
 
@@ -24,6 +24,7 @@ public class AttributeConfig : MonoBehaviour
         public AttributeName name;
         public Sprite cardBackGroundSprite;
         public Sprite cardMarkSprite;
+        public Color colorRGB;
 
     }
 
@@ -40,5 +41,41 @@ public class AttributeConfig : MonoBehaviour
     {
 
     }
+
+    public Sprite GetBackGroundSprite(AttributeName name)
+    {
+        int index = attributeMaps.FindIndex(item => item.name == name);
+        return attributeMaps[index].cardBackGroundSprite;
+    }
+
+    public Sprite GetMarkSprite(AttributeName name)
+    {
+        int index = attributeMaps.FindIndex(item => item.name == name);
+        return attributeMaps[index].cardMarkSprite;
+    }
+
+    public AttributeMap GetCardAttribute(int num)
+    {
+        AttributeMap attribute;
+        if (num >= 40)
+        {
+            attribute = attributeMaps[3];
+        }
+        else if(num>=30)
+        {
+            attribute = attributeMaps[2];
+        }
+        else if(num>=20)
+        {
+            attribute = attributeMaps[1];
+        }
+        else
+        {
+            attribute = attributeMaps[0];
+        }
+
+        return attribute;
+    }
+
 
 }

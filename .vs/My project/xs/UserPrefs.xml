@@ -1,11 +1,18 @@
 ﻿<Properties StartupConfiguration="{32C3BDE6-E125-3128-82C1-25D0441455A3}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7746dbce-b2a6-44ce-91bf-4dacd9494e6f" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PartySelect.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7c3eb0f8-2566-4e7f-9d07-3141ec3ffbfa" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameDirector.cs">
     <Files>
-      <File FileName="Assets/Scripts/CharacterConfig.cs" Line="8" Column="45" />
-      <File FileName="Assets/Scripts/AttributeConfig.cs" Line="26" Column="6" />
-      <File FileName="Assets/Scripts/PartySelect.cs" Line="10" Column="40" />
+      <File FileName="Assets/Scripts/CharacterConfig.cs" Line="17" Column="14" />
+      <File FileName="Assets/Scripts/AttributeConfig.cs" Line="33" Column="19" />
+      <File FileName="Assets/Scripts/PartySelect.cs" Line="112" Column="32" />
+      <File FileName="Assets/Scripts/CardController.cs" Line="30" Column="46" />
+      <File FileName="Assets/Scripts/cardButton.cs" Line="61" Column="13" />
+      <File FileName="Assets/Scripts/GameDirector.cs" Line="103" Column="9" />
+      <File FileName="Assets/Scripts/MemberButton.cs" Line="35" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +26,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
