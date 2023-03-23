@@ -61,7 +61,7 @@ public class CardDirector : MonoBehaviour
         {
             //カードを生成して配列に格納
             cardButtons[i] = Instantiate(cardButton);
-            cardButtons[i].transform.parent = _parentObj.transform;
+            cardButtons[i].transform.SetParent(_parentObj.transform);
 
             var rect = cardButtons[i].GetComponent<RectTransform>();
             //初期位置
@@ -121,18 +121,21 @@ public class CardDirector : MonoBehaviour
         if (!cardsStatus)
         {
             rect.DOKill();
-            rect.DOAnchorPosY(10f, 0.3f)
+            rect.DOLocalMoveY(10f, 0.3f)
+            .SetRelative(true)
             .SetLoops(2, LoopType.Yoyo)
             .OnComplete(()=>
             {
-                rect.DOAnchorPosY(0f, 0.3f)
+                rect.DOLocalMoveY(0f, 0.3f)
+                .SetRelative(true)
                 .SetEase(Ease.OutCubic);
             });
             
         }
         else
         {
-            rect.DOAnchorPosY(10f, 0.3f)
+            rect.DOLocalMoveY(10f, 0.3f)
+                .SetRelative(true)
             .SetLoops(-1, LoopType.Yoyo);
         }
     }

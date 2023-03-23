@@ -77,5 +77,24 @@ public class AttributeConfig : MonoBehaviour
         return attribute;
     }
 
+    public string FindPositiveAttibute(string tag)
+    {
+        string positiveAttribute="";
+        AttributeName name;
+        AttributeName.TryParse(tag, out name);
+        AttributeName[] attributes= (AttributeName[])Enum.GetValues(typeof(AttributeName));
+
+        for (int i = 0; i < attributes.Length; i++)
+        {
+            if (attributes[i] == name)
+            {
+                int index = (i + 1 == 4) ? 0 : i + 1;
+                positiveAttribute = attributes[index].ToString();
+            }
+        }
+        return positiveAttribute;
+    }
+
+
 
 }

@@ -18,9 +18,6 @@ public class cardButton : MonoBehaviour
     RectTransform rect;
 
 
-    private int cardNumber;//カード番号
-    private AttributeConfig.AttributeName cardAttribute;//カード属性
-
 
     
 
@@ -38,8 +35,7 @@ public class cardButton : MonoBehaviour
         _frontObj = gameObject.transform.GetChild(1).gameObject;
         _frontObj.transform.Rotate(new Vector3(0, 90, 0));
 
-        //Enum.TryParse(this.tag, out cardAttribute);//このカードの属性を設定
-        //cardNumber=int.Parse(_frontObj.transform.GetChild(1).gameObject.GetComponent<Text>().text);
+        
 
     }
 

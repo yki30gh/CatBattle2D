@@ -147,8 +147,8 @@
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/AssetMenu/AssetFilesFilterPatternsMenuBuilder.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/Views/Changesets/LaunchDiffOperations.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/Views/PendingChanges/Dialogs/DependenciesDialog.cs" />
-    <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeTreeViewItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/WebApi/CredentialsResponse.cs" />
+    <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeTreeViewItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/AssetsUtils/AssetsPath.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/Views/PendingChanges/PendingChangesSelection.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@1.15.15/Editor/PlasticSCM/UI/UIElements/LoadingSpinner.cs" />

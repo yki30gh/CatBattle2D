@@ -3,16 +3,15 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7c3eb0f8-2566-4e7f-9d07-3141ec3ffbfa" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameDirector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerStatus.cs">
     <Files>
-      <File FileName="Assets/Scripts/CharacterConfig.cs" Line="17" Column="14" />
-      <File FileName="Assets/Scripts/AttributeConfig.cs" Line="33" Column="19" />
-      <File FileName="Assets/Scripts/PartySelect.cs" Line="112" Column="32" />
-      <File FileName="Assets/Scripts/CardController.cs" Line="30" Column="46" />
-      <File FileName="Assets/Scripts/cardButton.cs" Line="61" Column="13" />
-      <File FileName="Assets/Scripts/GameDirector.cs" Line="103" Column="9" />
-      <File FileName="Assets/Scripts/MemberButton.cs" Line="35" Column="42" />
+      <File FileName="Assets/Scripts/CharacterConfig.cs" />
+      <File FileName="Assets/Scripts/AttributeConfig.cs" />
+      <File FileName="Assets/Scripts/GameDirector.cs" />
+      <File FileName="Assets/Scripts/cardButton.cs" />
+      <File FileName="Assets/Scripts/MemberButton.cs" />
+      <File FileName="Assets/Scripts/PlayerStatus.cs" Line="166" Column="24" />
+      <File FileName="Assets/Scripts/CardDirector.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,6 +25,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e1c7c65-7d3e-45d0-998d-0487d110107c" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

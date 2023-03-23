@@ -60,8 +60,7 @@ public class MemberButton : MonoBehaviour
         
         if (_playerStatus.GetMembersStatus() && memberStatus)
         {
-            transform.DOScale(1.1f, 0.2f)
-                .SetEase(Ease.OutBack);
+            
         }
     }
 
@@ -69,7 +68,13 @@ public class MemberButton : MonoBehaviour
     {
         if (_playerStatus.GetMembersStatus() && memberStatus)
         {
-            transform.DOScale(1f, 0.2f);
+            
         }
     }
+
+    public bool MemberStatus
+    {
+        get { return memberStatus; }
+    }
+
 }
